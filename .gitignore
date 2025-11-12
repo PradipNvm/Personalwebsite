@@ -1,0 +1,55 @@
+# IDE and Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Node modules (if used)
+node_modules/
+package-lock.json
+yarn.lock
+
+# Build and dist files
+dist/
+build/
+*.min.js
+*.min.css
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Temporary files
+*.tmp
+*.bak
+*.log
+
+# OS specific
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+
+# Backup files
+*.backup
+*.old
+
+# Personal/Private files
+private/
+secrets.json
+
+# Analytics (if using)
+analytics/
+
+# Cache
+.cache/
+.parcel-cache
+
+# ESLint cache (if used)
+.eslintcache
